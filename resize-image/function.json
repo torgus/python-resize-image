@@ -5,7 +5,7 @@
       "name": "blobin",
       "type": "blobTrigger",
       "direction": "in",
-      "path": "test/{name}",
+      "path": "statics/{name}",
       "connection": "staticsgrupojulia_STORAGE"
     },
     {
