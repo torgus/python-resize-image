@@ -1,0 +1,19 @@
+{
+  "scriptFile": "__init__.py",
+  "bindings": [
+    {
+      "name": "blobin",
+      "type": "blobTrigger",
+      "direction": "in",
+      "path": "test/{name}",
+      "connection": "staticsgrupojulia_STORAGE"
+    },
+    {
+      "name": "blobout",
+      "type": "blob",
+      "direction": "out",
+      "path": "mobile/{name}",
+      "connection": "staticsgrupojulia_STORAGE"
+    }
+  ]
+}
